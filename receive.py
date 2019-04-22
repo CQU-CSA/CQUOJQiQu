@@ -9,7 +9,7 @@ import json
 driver = webdriver.Chrome('./chromedriver')  # Optional argument, if not specified will search path.
 driver.get('http://acm.cqu.edu.cn/contest_show.php?cid=286#standing')
 mydriver = webdriver.Chrome('./chromedriver')
-mydriver.get('file:///C:/Users/HBat/Documents/GitHub/CQUOJQiQu/0.html')
+mydriver.get('file:///D:\CQUOJQiQu/0.html')
 ac_que=[]
 file_name = 'ac_que.json' #通过扩展名指定文件存储的数据为json格式
 with open(file_name,'r') as file_object:
