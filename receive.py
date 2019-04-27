@@ -27,7 +27,7 @@ password = driver.find_element_by_id('password')
 password.send_keys('ATfCRtbr')
 time.sleep(0.5)
 login=driver.find_element_by_id('logindialog')
-login.find_element_by_name('login')
+login=login.find_element_by_name('login')
 login.click()
 
 mydriver = webdriver.Chrome('./chromedriver')
