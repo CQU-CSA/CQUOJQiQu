@@ -8,7 +8,7 @@ import json
 import os
 
 driver = webdriver.Chrome('./chromedriver')  # Optional argument, if not specified will search path.
-driver.get('http://acm.cqu.edu.cn/contest_show.php?cid=287#standing')
+driver.get('http://acm.cqu.edu.cn/contest_show.php?cid=293#standing')
 
 #登陆
 mens =driver.find_element_by_class_name('btn-navbar')
@@ -22,10 +22,10 @@ login=login.find_element_by_tag_name('a')
 login.click()
 time.sleep(0.5)
 username = driver.find_element_by_id('username')
-username.send_keys('cqupc19_150')
+username.send_keys('cqupc19f55')
 time.sleep(0.5)
 password = driver.find_element_by_id('password')
-password.send_keys('ATfCRtbr')
+password.send_keys('MNcH7d3h')
 time.sleep(0.5)
 login=driver.find_element_by_id('logindialog')
 login=login.find_element_by_name('login')
